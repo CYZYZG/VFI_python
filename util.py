@@ -3,7 +3,10 @@ import gc
 
 
 class Frame():
-    width, height, uv_w, uv_h = 0
+    width = 0
+    height = 0
+    uv_w = 0
+    uv_h = 0
     pix_fmt = ''
     BitDepth = 0
     Yt = 0
